@@ -1,3 +1,64 @@
+/*Global*/
+*, *::before, *::after {
+  box-sizing: border-box;
+}
 
+body {
+  background-image: url("https://i.postimg.cc/wxnQcSGz/pexels-madison-inouye-1216346.jpg");
+  font-family: "Smokum", cursive;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+.container {
+  position: relative;
+}
+
+header {
+  background: grey;
+  border: 3px dotted #000;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 64px;
+  text-align: center;
+}
+
+header p {
+  font-size: 28px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#button-rock, #button-paper, #button-scissors {
+  width: 180px;
+  height: 60px;
+  font-size: 30px;
+  background: #000;
+  color: #fff;
+}
+
+#messages {
+  font-size: 20px;
+  font-weight: bold;
+  background: grey;
+  border: 3px dotted #000;
+  position: absolute;
+  right: 38%;
+  margin-top: 50px;
+  width: 360px;
+  height: 60px;
+  text-align: center;
+  transition: 1s all;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxTQUFBO0FBRUE7RUFDQyxzQkFBQTtBQ0FEOztBREdBO0VBQ0ksd0ZBQUE7RUFDQSw4QkFBQTtFQUNBLDRCQUFBO0VBQ0Esa0NBQUE7RUFDQSxzQkFBQTtFQUNBLGFBQUE7QUNBSjs7QURHQTtFQUNJLGtCQUFBO0FDQUo7O0FER0E7RUFDSSxnQkFBQTtFQUNBLHVCQUFBO0VBQ0EsbUJBQUE7QUNBSjs7QURHQTtFQUNJLGVBQUE7RUFDQSxrQkFBQTtBQ0FKOztBREdBO0VBQ0ksZUFBQTtFQUNBLGtCQUFBO0VBQ0EsaUJBQUE7QUNBSjs7QURHQTtFQUNJLGFBQUE7RUFDQSw2QkFBQTtFQUNBLG1CQUFBO0FDQUo7O0FERUE7RUFDSSxZQUFBO0VBQ0EsWUFBQTtFQUNBLGVBQUE7RUFDQSxnQkFBQTtFQUNBLFdBQUE7QUNDSjs7QURFQTtFQUNJLGVBQUE7RUFDQSxpQkFBQTtFQUNBLGdCQUFBO0VBQ0EsdUJBQUE7RUFDQSxrQkFBQTtFQUNBLFVBQUE7RUFDQSxnQkFBQTtFQUNBLFlBQUE7RUFDQSxZQUFBO0VBQ0Esa0JBQUE7RUFDQSxrQkFBQTtBQ0NKIiwiZmlsZSI6InN0eWxlLmNzcyJ9 */

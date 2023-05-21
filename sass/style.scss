@@ -1,0 +1,62 @@
+/*Global*/
+
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://i.postimg.cc/wxnQcSGz/pexels-madison-inouye-1216346.jpg");
+    font-family: 'Smokum', cursive;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; 
+    height: 100vh;
+}
+
+.container{
+    position: relative;
+}
+
+header {
+    background: grey;
+    border: 3px dotted #000;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 64px;
+    text-align: center;
+}
+
+header p {
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#button-rock, #button-paper, #button-scissors {
+    width: 180px;
+    height: 60px;
+    font-size: 30px;
+    background:#000;
+    color: #fff;
+}
+
+#messages {
+    font-size: 20px;
+    font-weight: bold;
+    background: grey;
+    border: 3px dotted #000;
+    position: absolute;
+    right: 38%;
+    margin-top: 50px;
+    width: 360px;
+    height: 60px;
+    text-align: center;
+    transition: 1s all;
+}
