@@ -1,9 +1,7 @@
-let buttonName, buttonPaper, buttonRock, buttonScissors, buttonTest;
-
-buttonTest = document.getElementById('button-test');
-buttonRock = document.getElementById('button-rock');
-buttonPaper = document.getElementById('button-paper');
-buttonScissors = document.getElementById('button-scissors');
+const buttonTest = document.getElementById('button-test');
+const buttonRock = document.getElementById('button-rock');
+const buttonPaper = document.getElementById('button-paper');
+const buttonScissors = document.getElementById('button-scissors');
 /**
  * Describe this function...
  */
@@ -15,7 +13,6 @@ function buttonClicked(buttonName) {
 /**
  * Describe this function...
  */
-let move;
 function getMoveName (move) {
   console.log('wywołano funkcję getMoveName: ' + move);
   if (move == 1) {
@@ -29,14 +26,14 @@ function getMoveName (move) {
     return 'kamień';
   }
 }
-let randomNumber;
-playerMove = buttonName;
+
+const playerMove = buttonName;
 console.log('player move is: ' + playerMove);
-randomNumber = Math.floor(Math.random() * 3 + 1);
+const randomNumber = Math.floor(Math.random() * 3 + 1);
 console.log('wylosowana liczba to: ' + randomNumber);
-computerMove = getMoveName (randomNumber);
+const computerMove = getMoveName (randomNumber);
 console.log('ruch komputera to: ' + computerMove);
-displayResult(playerMove, computerMove); computerMove, playerMove, randomNumber;
+displayResult(playerMove, computerMove); 
 
 ;
 }
@@ -44,7 +41,7 @@ displayResult(playerMove, computerMove); computerMove, playerMove, randomNumber;
 /**
  * Describe this function...
  */
-let computerMove;
+
 function displayResult (playerMove, computerMove) {
   console.log('wywołano funkcję displayResults z argumentami: ' + playerMove + ', ' + computerMove);
   if (playerMove == 'paper' && computerMove == 'rock') {
